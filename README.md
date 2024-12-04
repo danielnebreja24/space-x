@@ -29,3 +29,11 @@ What the app should do:
 
 - Feel free to show off more of your skillset. You can use state management libraries, react-router and other libraries that you are comfortable using.
 - You can add different transitions.
+
+
+### INSTRUCTIONS TO RUN THE APP
+
+-run `npm install` in the root folder
+-add the API_URL (https://api.spacexdata.com/v3/launches) in the .env file (OPTIONAL)
+-run `npm start`
+-open `http://localhost:3000` from the browser
