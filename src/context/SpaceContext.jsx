@@ -12,13 +12,13 @@ export const SpaceProvider = ({ children }) => {
 
   const fetchMoreData = async () => {
     if (loading || !hasMore) return;
+    const URL =
+      process.env.REACT_APP_API_URL || "https://api.spacexdata.com/v3/launches";
 
     setLoading(true);
     try {
       const response = await axios.get(
-        `https://api.spacexdata.com/v3/launches?limit=5&offset=${
-          (page - 1) * 5
-        }`
+        `${URL}?limit=5&offset=${(page - 1) * 5}`
       );
       const result = response.data || [];
 
