@@ -33,7 +33,7 @@ What the app should do:
 
 ### INSTRUCTIONS TO RUN THE APP
 
--run `npm install` in the root folder
--add the API_URL (https://api.spacexdata.com/v3/launches) in the .env file (OPTIONAL)
--run `npm start`
--open `http://localhost:3000` from the browser
+- run `npm install` in the root folder
+- add the API_URL (https://api.spacexdata.com/v3/launches) in the .env file (OPTIONAL)
+- run `npm start`
+- open `http://localhost:3000` from the browser
